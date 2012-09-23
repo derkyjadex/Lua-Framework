@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>5.1.5</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>5.1.5</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2012 James Deery. All rights reserved.</string>
+	<string>Copyright (C) 1994-2012 Lua.org, PUC-Rio.</string>
 	<key>NSPrincipalClass</key>
 	<string></string>
 </dict>
