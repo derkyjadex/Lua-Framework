@@ -145,7 +145,7 @@
 
 /* Begin PBXFileReference section */
 		1A0E1FB0160F27DA0074980F /* Lua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A0E1FBB160F27DA0074980F /* Lua-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lua-Info.plist"; sourceTree = "<group>"; };
+		1A0E1FBB160F27DA0074980F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1A0E1FC9160F28D50074980F /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
 		1A0E1FCA160F28D50074980F /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
 		1A0E1FCB160F28D50074980F /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
@@ -234,7 +234,6 @@
 			isa = PBXGroup;
 			children = (
 				1A0E1FB9160F27DA0074980F /* Lua */,
-				1A0E1FB2160F27DA0074980F /* Frameworks */,
 				1A0E1FB1160F27DA0074980F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -249,29 +248,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A0E1FB2160F27DA0074980F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1A0E1FB9160F27DA0074980F /* Lua */ = {
 			isa = PBXGroup;
 			children = (
+				1A0E1FBB160F27DA0074980F /* Info.plist */,
 				1A0E1FC8160F28D50074980F /* src */,
-				1A0E1FBA160F27DA0074980F /* Supporting Files */,
 			);
 			path = Lua;
-			sourceTree = "<group>";
-		};
-		1A0E1FBA160F27DA0074980F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1A0E1FBB160F27DA0074980F /* Lua-Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		1A0E1FC8160F28D50074980F /* src */ = {
 			isa = PBXGroup;
@@ -629,7 +613,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Lua/Lua-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -642,7 +626,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Lua/Lua-Info.plist";
+				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
