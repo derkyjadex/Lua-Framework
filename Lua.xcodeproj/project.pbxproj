@@ -103,6 +103,7 @@
 		1A0E2096160F2BD20074980F /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E2000160F28D50074980F /* print.c */; };
 		1A0E209B1610524F0074980F /* lua in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E2041160F2B170074980F /* lua */; };
 		1A0E209C1610524F0074980F /* luac in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E206E160F2BC50074980F /* luac */; };
+		1A0E20A216105FB40074980F /* COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E20A116105FA00074980F /* COPYRIGHT */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,6 +204,7 @@
 		1A0E2000160F28D50074980F /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
 		1A0E2041160F2B170074980F /* lua */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lua; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0E206E160F2BC50074980F /* luac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = luac; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0E20A116105FA00074980F /* COPYRIGHT */ = {isa = PBXFileReference; lastKnownFileType = text; name = COPYRIGHT; path = "lua-5.1.5/COPYRIGHT"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 		1A0E1FB9160F27DA0074980F /* Lua */ = {
 			isa = PBXGroup;
 			children = (
+				1A0E20A116105FA00074980F /* COPYRIGHT */,
 				1A0E1FBB160F27DA0074980F /* Info.plist */,
 				1A0E1FC8160F28D50074980F /* src */,
 			);
@@ -424,6 +427,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0E20A216105FB40074980F /* COPYRIGHT in Resources */,
 				1A0E209B1610524F0074980F /* lua in Resources */,
 				1A0E209C1610524F0074980F /* luac in Resources */,
 			);
