@@ -101,7 +101,26 @@
 		1A0E2094160F2BD20074980F /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E1FFB160F28D50074980F /* lvm.c */; };
 		1A0E2095160F2BD20074980F /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E1FFD160F28D50074980F /* lzio.c */; };
 		1A0E2096160F2BD20074980F /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E2000160F28D50074980F /* print.c */; };
+		1A0E209B1610524F0074980F /* lua in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E2041160F2B170074980F /* lua */; };
+		1A0E209C1610524F0074980F /* luac in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E206E160F2BC50074980F /* luac */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A0E209D161053170074980F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A0E1FA6160F27DA0074980F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0E2040160F2B170074980F;
+			remoteInfo = lua;
+		};
+		1A0E209F161053170074980F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A0E1FA6160F27DA0074980F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0E206D160F2BC50074980F;
+			remoteInfo = luac;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1A0E203F160F2B170074980F /* CopyFiles */ = {
@@ -346,6 +365,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				1A0E209E161053170074980F /* PBXTargetDependency */,
+				1A0E20A0161053170074980F /* PBXTargetDependency */,
 			);
 			name = Lua;
 			productName = Lua;
@@ -419,6 +440,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A0E209B1610524F0074980F /* lua in Resources */,
+				1A0E209C1610524F0074980F /* luac in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +560,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A0E209E161053170074980F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0E2040160F2B170074980F /* lua */;
+			targetProxy = 1A0E209D161053170074980F /* PBXContainerItemProxy */;
+		};
+		1A0E20A0161053170074980F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0E206D160F2BC50074980F /* luac */;
+			targetProxy = 1A0E209F161053170074980F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1A0E1FC3160F27DA0074980F /* Debug */ = {
