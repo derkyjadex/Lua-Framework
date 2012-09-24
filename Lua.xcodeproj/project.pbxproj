@@ -205,6 +205,7 @@
 		1A0E2041160F2B170074980F /* lua */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lua; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0E206E160F2BC50074980F /* luac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = luac; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0E20A116105FA00074980F /* COPYRIGHT */ = {isa = PBXFileReference; lastKnownFileType = text; name = COPYRIGHT; path = "lua-5.1.5/COPYRIGHT"; sourceTree = SOURCE_ROOT; };
+		1A0E20CF16108EAB0074980F /* exports.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = exports.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +254,7 @@
 		1A0E1FB9160F27DA0074980F /* Lua */ = {
 			isa = PBXGroup;
 			children = (
+				1A0E20CF16108EAB0074980F /* exports.txt */,
 				1A0E20A116105FA00074980F /* COPYRIGHT */,
 				1A0E1FBB160F27DA0074980F /* Info.plist */,
 				1A0E1FC8160F28D50074980F /* src */,
@@ -616,6 +618,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 5.1.0;
 				DYLIB_CURRENT_VERSION = 5.1.5;
+				EXPORTED_SYMBOLS_FILE = exports.txt;
 				FRAMEWORK_VERSION = 5.1;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -629,6 +632,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 5.1.0;
 				DYLIB_CURRENT_VERSION = 5.1.5;
+				EXPORTED_SYMBOLS_FILE = exports.txt;
 				FRAMEWORK_VERSION = 5.1;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -687,6 +691,7 @@
 				1A0E1FC7160F27DA0074980F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A0E2048160F2B170074980F /* Build configuration list for PBXNativeTarget "lua" */ = {
 			isa = XCConfigurationList;
@@ -695,6 +700,7 @@
 				1A0E204A160F2B170074980F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A0E2075160F2BC50074980F /* Build configuration list for PBXNativeTarget "luac" */ = {
 			isa = XCConfigurationList;
@@ -703,6 +709,7 @@
 				1A0E2077160F2BC50074980F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
