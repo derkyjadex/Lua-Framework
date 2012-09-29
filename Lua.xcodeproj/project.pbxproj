@@ -623,6 +623,7 @@
 				EXPORTED_SYMBOLS_FILE = exports.txt;
 				FRAMEWORK_VERSION = 5.1;
 				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@rpath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -637,6 +638,7 @@
 				EXPORTED_SYMBOLS_FILE = exports.txt;
 				FRAMEWORK_VERSION = 5.1;
 				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@rpath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
