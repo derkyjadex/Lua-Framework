@@ -100,10 +100,22 @@
 		1A0E2093160F2BD20074980F /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E1FF9160F28D50074980F /* lundump.c */; };
 		1A0E2094160F2BD20074980F /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E1FFB160F28D50074980F /* lvm.c */; };
 		1A0E2095160F2BD20074980F /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E1FFD160F28D50074980F /* lzio.c */; };
-		1A0E2096160F2BD20074980F /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E2000160F28D50074980F /* print.c */; };
 		1A0E209B1610524F0074980F /* lua in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E2041160F2B170074980F /* lua */; };
 		1A0E209C1610524F0074980F /* luac in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E206E160F2BC50074980F /* luac */; };
-		1A0E20A216105FB40074980F /* COPYRIGHT in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E20A116105FA00074980F /* COPYRIGHT */; };
+		1AB7AE551656BB5600A26666 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE511656BB5600A26666 /* lbitlib.c */; };
+		1AB7AE561656BB5600A26666 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE511656BB5600A26666 /* lbitlib.c */; };
+		1AB7AE571656BB5600A26666 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE511656BB5600A26666 /* lbitlib.c */; };
+		1AB7AE581656BB5600A26666 /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE521656BB5600A26666 /* lcorolib.c */; };
+		1AB7AE591656BB5600A26666 /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE521656BB5600A26666 /* lcorolib.c */; };
+		1AB7AE5A1656BB5600A26666 /* lcorolib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE521656BB5600A26666 /* lcorolib.c */; };
+		1AB7AE5B1656BB5600A26666 /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE531656BB5600A26666 /* lctype.c */; };
+		1AB7AE5C1656BB5600A26666 /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE531656BB5600A26666 /* lctype.c */; };
+		1AB7AE5D1656BB5600A26666 /* lctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE531656BB5600A26666 /* lctype.c */; };
+		1AB7AE601656BBDB00A26666 /* lua.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1AB7AE5F1656BB6F00A26666 /* lua.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB7AE651656BD4D00A26666 /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1AB7AE611656BD4300A26666 /* logo.gif */; };
+		1AB7AE661656BD4D00A26666 /* lua.css in Resources */ = {isa = PBXBuildFile; fileRef = 1AB7AE621656BD4300A26666 /* lua.css */; };
+		1AB7AE671656BD4D00A26666 /* osi-certified-72x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AB7AE631656BD4300A26666 /* osi-certified-72x60.png */; };
+		1AB7AE681656BD4D00A26666 /* readme.html in Resources */ = {isa = PBXBuildFile; fileRef = 1AB7AE641656BD4300A26666 /* readme.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -201,11 +213,18 @@
 		1A0E1FFC160F28D50074980F /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
 		1A0E1FFD160F28D50074980F /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
 		1A0E1FFE160F28D50074980F /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
-		1A0E2000160F28D50074980F /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
 		1A0E2041160F2B170074980F /* lua */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lua; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0E206E160F2BC50074980F /* luac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = luac; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A0E20A116105FA00074980F /* COPYRIGHT */ = {isa = PBXFileReference; lastKnownFileType = text; name = COPYRIGHT; path = "lua-5.1.5/COPYRIGHT"; sourceTree = SOURCE_ROOT; };
 		1A0E20CF16108EAB0074980F /* exports.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = exports.txt; sourceTree = SOURCE_ROOT; };
+		1AB7AE511656BB5600A26666 /* lbitlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbitlib.c; sourceTree = "<group>"; };
+		1AB7AE521656BB5600A26666 /* lcorolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcorolib.c; sourceTree = "<group>"; };
+		1AB7AE531656BB5600A26666 /* lctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lctype.c; sourceTree = "<group>"; };
+		1AB7AE541656BB5600A26666 /* lctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lctype.h; sourceTree = "<group>"; };
+		1AB7AE5F1656BB6F00A26666 /* lua.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lua.hpp; sourceTree = "<group>"; };
+		1AB7AE611656BD4300A26666 /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo.gif; path = "lua-5.2.1/doc/logo.gif"; sourceTree = SOURCE_ROOT; };
+		1AB7AE621656BD4300A26666 /* lua.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = lua.css; path = "lua-5.2.1/doc/lua.css"; sourceTree = SOURCE_ROOT; };
+		1AB7AE631656BD4300A26666 /* osi-certified-72x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "osi-certified-72x60.png"; path = "lua-5.2.1/doc/osi-certified-72x60.png"; sourceTree = SOURCE_ROOT; };
+		1AB7AE641656BD4300A26666 /* readme.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = readme.html; path = "lua-5.2.1/doc/readme.html"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,8 +273,11 @@
 		1A0E1FB9160F27DA0074980F /* Lua */ = {
 			isa = PBXGroup;
 			children = (
+				1AB7AE611656BD4300A26666 /* logo.gif */,
+				1AB7AE621656BD4300A26666 /* lua.css */,
+				1AB7AE631656BD4300A26666 /* osi-certified-72x60.png */,
+				1AB7AE641656BD4300A26666 /* readme.html */,
 				1A0E20CF16108EAB0074980F /* exports.txt */,
-				1A0E20A116105FA00074980F /* COPYRIGHT */,
 				1A0E1FBB160F27DA0074980F /* Info.plist */,
 				1A0E1FC8160F28D50074980F /* src */,
 			);
@@ -270,8 +292,12 @@
 				1A0E1FCB160F28D50074980F /* lauxlib.c */,
 				1A0E1FCC160F28D50074980F /* lauxlib.h */,
 				1A0E1FCD160F28D50074980F /* lbaselib.c */,
+				1AB7AE511656BB5600A26666 /* lbitlib.c */,
 				1A0E1FCE160F28D50074980F /* lcode.c */,
 				1A0E1FCF160F28D50074980F /* lcode.h */,
+				1AB7AE521656BB5600A26666 /* lcorolib.c */,
+				1AB7AE531656BB5600A26666 /* lctype.c */,
+				1AB7AE541656BB5600A26666 /* lctype.h */,
 				1A0E1FD0160F28D50074980F /* ldblib.c */,
 				1A0E1FD1160F28D50074980F /* ldebug.c */,
 				1A0E1FD2160F28D50074980F /* ldebug.h */,
@@ -310,6 +336,7 @@
 				1A0E1FF3160F28D50074980F /* ltm.h */,
 				1A0E1FF4160F28D50074980F /* lua.c */,
 				1A0E1FF5160F28D50074980F /* lua.h */,
+				1AB7AE5F1656BB6F00A26666 /* lua.hpp */,
 				1A0E1FF6160F28D50074980F /* luac.c */,
 				1A0E1FF7160F28D50074980F /* luaconf.h */,
 				1A0E1FF8160F28D50074980F /* lualib.h */,
@@ -319,10 +346,9 @@
 				1A0E1FFC160F28D50074980F /* lvm.h */,
 				1A0E1FFD160F28D50074980F /* lzio.c */,
 				1A0E1FFE160F28D50074980F /* lzio.h */,
-				1A0E2000160F28D50074980F /* print.c */,
 			);
 			name = src;
-			path = "lua-5.1.5/src";
+			path = "lua-5.2.1/src";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -333,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A0E2039160F2A4E0074980F /* lua.h in Headers */,
+				1AB7AE601656BBDB00A26666 /* lua.hpp in Headers */,
 				1A0E203A160F2A550074980F /* lauxlib.h in Headers */,
 				1A0E203B160F2A5D0074980F /* luaconf.h in Headers */,
 				1A0E203C160F2A6C0074980F /* lualib.h in Headers */,
@@ -429,7 +456,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0E20A216105FB40074980F /* COPYRIGHT in Resources */,
+				1AB7AE651656BD4D00A26666 /* logo.gif in Resources */,
+				1AB7AE661656BD4D00A26666 /* lua.css in Resources */,
+				1AB7AE671656BD4D00A26666 /* osi-certified-72x60.png in Resources */,
+				1AB7AE681656BD4D00A26666 /* readme.html in Resources */,
 				1A0E209B1610524F0074980F /* lua in Resources */,
 				1A0E209C1610524F0074980F /* luac in Resources */,
 			);
@@ -471,6 +501,9 @@
 				1A0E2031160F28D50074980F /* lundump.c in Sources */,
 				1A0E2033160F28D50074980F /* lvm.c in Sources */,
 				1A0E2035160F28D50074980F /* lzio.c in Sources */,
+				1AB7AE551656BB5600A26666 /* lbitlib.c in Sources */,
+				1AB7AE581656BB5600A26666 /* lcorolib.c in Sources */,
+				1AB7AE5B1656BB5600A26666 /* lctype.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +541,9 @@
 				1A0E2067160F2B800074980F /* lundump.c in Sources */,
 				1A0E2068160F2B800074980F /* lvm.c in Sources */,
 				1A0E2069160F2B800074980F /* lzio.c in Sources */,
+				1AB7AE561656BB5600A26666 /* lbitlib.c in Sources */,
+				1AB7AE591656BB5600A26666 /* lcorolib.c in Sources */,
+				1AB7AE5C1656BB5600A26666 /* lctype.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,7 +581,9 @@
 				1A0E2093160F2BD20074980F /* lundump.c in Sources */,
 				1A0E2094160F2BD20074980F /* lvm.c in Sources */,
 				1A0E2095160F2BD20074980F /* lzio.c in Sources */,
-				1A0E2096160F2BD20074980F /* print.c in Sources */,
+				1AB7AE571656BB5600A26666 /* lbitlib.c in Sources */,
+				1AB7AE5A1656BB5600A26666 /* lcorolib.c in Sources */,
+				1AB7AE5D1656BB5600A26666 /* lctype.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,10 +656,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 5.1.0;
-				DYLIB_CURRENT_VERSION = 5.1.5;
 				EXPORTED_SYMBOLS_FILE = exports.txt;
-				FRAMEWORK_VERSION = 5.1;
+				DYLIB_COMPATIBILITY_VERSION = 5.2.0;
+				DYLIB_CURRENT_VERSION = 5.2.1;
+				FRAMEWORK_VERSION = 5.2;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@rpath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -633,10 +671,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 5.1.0;
-				DYLIB_CURRENT_VERSION = 5.1.5;
-				EXPORTED_SYMBOLS_FILE = exports.txt;
-				FRAMEWORK_VERSION = 5.1;
+				DYLIB_COMPATIBILITY_VERSION = 5.2.0;
+				DYLIB_CURRENT_VERSION = 5.2.1;
+				FRAMEWORK_VERSION = 5.2;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@rpath";
 				PRODUCT_NAME = "$(TARGET_NAME)";
