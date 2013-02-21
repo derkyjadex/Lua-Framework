@@ -102,6 +102,7 @@
 		1A0E2095160F2BD20074980F /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A0E1FFD160F28D50074980F /* lzio.c */; };
 		1A0E209B1610524F0074980F /* lua in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E2041160F2B170074980F /* lua */; };
 		1A0E209C1610524F0074980F /* luac in Resources */ = {isa = PBXBuildFile; fileRef = 1A0E206E160F2BC50074980F /* luac */; };
+		1A2148F816D64FA0003D3B68 /* libreadline.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2148F616D64AAA003D3B68 /* libreadline.dylib */; };
 		1AB7AE551656BB5600A26666 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE511656BB5600A26666 /* lbitlib.c */; };
 		1AB7AE561656BB5600A26666 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE511656BB5600A26666 /* lbitlib.c */; };
 		1AB7AE571656BB5600A26666 /* lbitlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1AB7AE511656BB5600A26666 /* lbitlib.c */; };
@@ -216,6 +217,7 @@
 		1A0E2041160F2B170074980F /* lua */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lua; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0E206E160F2BC50074980F /* luac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = luac; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0E20CF16108EAB0074980F /* exports.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = exports.txt; sourceTree = SOURCE_ROOT; };
+		1A2148F616D64AAA003D3B68 /* libreadline.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libreadline.dylib; path = usr/lib/libreadline.dylib; sourceTree = SDKROOT; };
 		1AB7AE511656BB5600A26666 /* lbitlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbitlib.c; sourceTree = "<group>"; };
 		1AB7AE521656BB5600A26666 /* lcorolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcorolib.c; sourceTree = "<group>"; };
 		1AB7AE531656BB5600A26666 /* lctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lctype.c; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A2148F816D64FA0003D3B68 /* libreadline.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +258,7 @@
 		1A0E1FA4160F27DA0074980F = {
 			isa = PBXGroup;
 			children = (
+				1A2148F616D64AAA003D3B68 /* libreadline.dylib */,
 				1A0E1FB9160F27DA0074980F /* Lua */,
 				1A0E1FB1160F27DA0074980F /* Products */,
 			);
@@ -617,6 +621,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
+					LUA_USE_MACOSX,
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -642,6 +647,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = LUA_USE_MACOSX;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -656,9 +662,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				EXPORTED_SYMBOLS_FILE = exports.txt;
 				DYLIB_COMPATIBILITY_VERSION = 5.2.0;
 				DYLIB_CURRENT_VERSION = 5.2.1;
+				EXPORTED_SYMBOLS_FILE = exports.txt;
 				FRAMEWORK_VERSION = 5.2;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@rpath";
