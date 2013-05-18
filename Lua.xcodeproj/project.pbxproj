@@ -223,10 +223,10 @@
 		1AB7AE531656BB5600A26666 /* lctype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lctype.c; sourceTree = "<group>"; };
 		1AB7AE541656BB5600A26666 /* lctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lctype.h; sourceTree = "<group>"; };
 		1AB7AE5F1656BB6F00A26666 /* lua.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lua.hpp; sourceTree = "<group>"; };
-		1AB7AE611656BD4300A26666 /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo.gif; path = "lua-5.2.1/doc/logo.gif"; sourceTree = SOURCE_ROOT; };
-		1AB7AE621656BD4300A26666 /* lua.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = lua.css; path = "lua-5.2.1/doc/lua.css"; sourceTree = SOURCE_ROOT; };
-		1AB7AE631656BD4300A26666 /* osi-certified-72x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "osi-certified-72x60.png"; path = "lua-5.2.1/doc/osi-certified-72x60.png"; sourceTree = SOURCE_ROOT; };
-		1AB7AE641656BD4300A26666 /* readme.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = readme.html; path = "lua-5.2.1/doc/readme.html"; sourceTree = SOURCE_ROOT; };
+		1AB7AE611656BD4300A26666 /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = logo.gif; path = "lua-5.2.2/doc/logo.gif"; sourceTree = SOURCE_ROOT; };
+		1AB7AE621656BD4300A26666 /* lua.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = lua.css; path = "lua-5.2.2/doc/lua.css"; sourceTree = SOURCE_ROOT; };
+		1AB7AE631656BD4300A26666 /* osi-certified-72x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "osi-certified-72x60.png"; path = "lua-5.2.2/doc/osi-certified-72x60.png"; sourceTree = SOURCE_ROOT; };
+		1AB7AE641656BD4300A26666 /* readme.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = readme.html; path = "lua-5.2.2/doc/readme.html"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -352,7 +352,7 @@
 				1A0E1FFE160F28D50074980F /* lzio.h */,
 			);
 			name = src;
-			path = "lua-5.2.1/src";
+			path = "lua-5.2.2/src";
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -663,7 +663,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 5.2.0;
-				DYLIB_CURRENT_VERSION = 5.2.1;
+				DYLIB_CURRENT_VERSION = 5.2.2;
 				EXPORTED_SYMBOLS_FILE = exports.txt;
 				FRAMEWORK_VERSION = 5.2;
 				INFOPLIST_FILE = Info.plist;
@@ -678,7 +678,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 5.2.0;
-				DYLIB_CURRENT_VERSION = 5.2.1;
+				DYLIB_CURRENT_VERSION = 5.2.2;
 				FRAMEWORK_VERSION = 5.2;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "@rpath";
