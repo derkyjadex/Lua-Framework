@@ -1,7 +1,7 @@
 Lua Framework
 =============
 
-This is simply the source distribution of Lua 5.2.2 with an Xcode project to
+This is simply the source distribution of Lua 5.2.3 with an Xcode project to
 build an OS X Framework bundle.
 
 For more details about Lua, see <http://www.lua.org>.
@@ -9,12 +9,12 @@ For more details about Lua, see <http://www.lua.org>.
 Licensing
 ---------
 
-The Lua sources in lua-5.2.2 and the generated binaries are licensed under the 
-terms in lua-5.2.2/doc/readme.html#license.
+The Lua sources in lua-5.2.3 and the generated binaries are licensed under the 
+terms in lua-5.2.3/doc/readme.html#license.
 
 The rest of the files in this repository are licensed under the following terms:
 
-Copyright (C) 2012-2013 James Deery.
+Copyright (C) 2012-2014 James Deery.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
